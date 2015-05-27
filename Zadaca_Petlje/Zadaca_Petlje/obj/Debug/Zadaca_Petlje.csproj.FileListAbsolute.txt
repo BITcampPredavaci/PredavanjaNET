@@ -1,0 +1,6 @@
+\\psf\home\documents\visual studio 2013\Projects\Zadaca_Petlje\Zadaca_Petlje\bin\Debug\Zadaca_Petlje.exe.config
+\\psf\home\documents\visual studio 2013\Projects\Zadaca_Petlje\Zadaca_Petlje\bin\Debug\Zadaca_Petlje.exe
+\\psf\home\documents\visual studio 2013\Projects\Zadaca_Petlje\Zadaca_Petlje\bin\Debug\Zadaca_Petlje.pdb
+\\psf\home\documents\visual studio 2013\Projects\Zadaca_Petlje\Zadaca_Petlje\obj\Debug\Zadaca_Petlje.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\Zadaca_Petlje\Zadaca_Petlje\obj\Debug\Zadaca_Petlje.exe
+\\psf\home\documents\visual studio 2013\Projects\Zadaca_Petlje\Zadaca_Petlje\obj\Debug\Zadaca_Petlje.pdb
