@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S02D03-Forloop_Array", "S02D03-Forloop_Array\S02D03-Forloop_Array.csproj", "{F85ACBF3-6FD0-462B-9608-7373B346A359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S02D03_NestedLoops", "S02D03_NestedLoops\S02D03_NestedLoops.csproj", "{9863F325-22F5-4CD6-A3A5-A70696132FAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F85ACBF3-6FD0-462B-9608-7373B346A359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85ACBF3-6FD0-462B-9608-7373B346A359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85ACBF3-6FD0-462B-9608-7373B346A359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85ACBF3-6FD0-462B-9608-7373B346A359}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9863F325-22F5-4CD6-A3A5-A70696132FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9863F325-22F5-4CD6-A3A5-A70696132FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9863F325-22F5-4CD6-A3A5-A70696132FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9863F325-22F5-4CD6-A3A5-A70696132FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
