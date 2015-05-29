@@ -1,0 +1,6 @@
+\\psf\home\documents\visual studio 2013\Projects\S02D05_Recap\S02D05_Recap\bin\Debug\S02D05_Recap.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S02D05_Recap\S02D05_Recap\bin\Debug\S02D05_Recap.exe
+\\psf\home\documents\visual studio 2013\Projects\S02D05_Recap\S02D05_Recap\bin\Debug\S02D05_Recap.pdb
+\\psf\home\documents\visual studio 2013\Projects\S02D05_Recap\S02D05_Recap\obj\Debug\S02D05_Recap.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\S02D05_Recap\S02D05_Recap\obj\Debug\S02D05_Recap.exe
+\\psf\home\documents\visual studio 2013\Projects\S02D05_Recap\S02D05_Recap\obj\Debug\S02D05_Recap.pdb
