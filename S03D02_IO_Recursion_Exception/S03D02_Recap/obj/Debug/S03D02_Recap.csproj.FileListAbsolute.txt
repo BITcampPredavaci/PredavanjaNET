@@ -1,0 +1,6 @@
+\\psf\home\documents\visual studio 2013\Projects\S03D02_IO_Recursion_Exception\S03D02_Recap\bin\Debug\S03D02_Recap.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S03D02_IO_Recursion_Exception\S03D02_Recap\bin\Debug\S03D02_Recap.exe
+\\psf\home\documents\visual studio 2013\Projects\S03D02_IO_Recursion_Exception\S03D02_Recap\bin\Debug\S03D02_Recap.pdb
+\\psf\home\documents\visual studio 2013\Projects\S03D02_IO_Recursion_Exception\S03D02_Recap\obj\Debug\S03D02_Recap.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\S03D02_IO_Recursion_Exception\S03D02_Recap\obj\Debug\S03D02_Recap.exe
+\\psf\home\documents\visual studio 2013\Projects\S03D02_IO_Recursion_Exception\S03D02_Recap\obj\Debug\S03D02_Recap.pdb
