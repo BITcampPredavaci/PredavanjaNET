@@ -1,0 +1,6 @@
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_Input\bin\Debug\S03D03_Input.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_Input\bin\Debug\S03D03_Input.exe
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_Input\bin\Debug\S03D03_Input.pdb
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_Input\obj\Debug\S03D03_Input.exe
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_Input\obj\Debug\S03D03_Input.pdb
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_Input\obj\Debug\S03D03_Input.csprojResolveAssemblyReference.cache

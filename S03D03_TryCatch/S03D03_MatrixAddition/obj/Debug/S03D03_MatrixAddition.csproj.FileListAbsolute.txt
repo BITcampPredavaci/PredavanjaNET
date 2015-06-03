@@ -1,0 +1,5 @@
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_MatrixAddition\bin\Debug\S03D03_MatrixAddition.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_MatrixAddition\bin\Debug\S03D03_MatrixAddition.exe
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_MatrixAddition\bin\Debug\S03D03_MatrixAddition.pdb
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_MatrixAddition\obj\Debug\S03D03_MatrixAddition.exe
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_MatrixAddition\obj\Debug\S03D03_MatrixAddition.pdb

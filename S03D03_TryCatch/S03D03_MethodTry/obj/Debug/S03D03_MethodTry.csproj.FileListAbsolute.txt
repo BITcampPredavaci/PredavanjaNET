@@ -1,0 +1,6 @@
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_MethodTry\bin\Debug\S03D03_MethodTry.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_MethodTry\bin\Debug\S03D03_MethodTry.exe
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_MethodTry\bin\Debug\S03D03_MethodTry.pdb
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_MethodTry\obj\Debug\S03D03_MethodTry.exe
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_MethodTry\obj\Debug\S03D03_MethodTry.pdb
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_MethodTry\obj\Debug\S03D03_MethodTry.csprojResolveAssemblyReference.cache

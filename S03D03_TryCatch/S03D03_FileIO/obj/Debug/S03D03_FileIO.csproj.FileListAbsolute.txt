@@ -1,0 +1,5 @@
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_FileIO\bin\Debug\S03D03_FileIO.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_FileIO\bin\Debug\S03D03_FileIO.exe
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_FileIO\bin\Debug\S03D03_FileIO.pdb
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_FileIO\obj\Debug\S03D03_FileIO.exe
+\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_FileIO\obj\Debug\S03D03_FileIO.pdb
