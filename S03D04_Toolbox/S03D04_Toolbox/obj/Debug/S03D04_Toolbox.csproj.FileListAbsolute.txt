@@ -1,0 +1,6 @@
+\\psf\home\documents\visual studio 2013\Projects\S03D04_Toolbox\S03D04_Toolbox\bin\Debug\S03D04_Toolbox.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S03D04_Toolbox\S03D04_Toolbox\bin\Debug\S03D04_Toolbox.exe
+\\psf\home\documents\visual studio 2013\Projects\S03D04_Toolbox\S03D04_Toolbox\bin\Debug\S03D04_Toolbox.pdb
+\\psf\home\documents\visual studio 2013\Projects\S03D04_Toolbox\S03D04_Toolbox\obj\Debug\S03D04_Toolbox.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\S03D04_Toolbox\S03D04_Toolbox\obj\Debug\S03D04_Toolbox.exe
+\\psf\home\documents\visual studio 2013\Projects\S03D04_Toolbox\S03D04_Toolbox\obj\Debug\S03D04_Toolbox.pdb
