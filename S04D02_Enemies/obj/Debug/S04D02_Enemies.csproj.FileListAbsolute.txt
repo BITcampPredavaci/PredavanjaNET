@@ -1,0 +1,6 @@
+\\psf\home\documents\visual studio 2013\Projects\S04D02_StructsClassesInheritance\S04D02_Enemies\bin\Debug\S04D02_Enemies.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S04D02_StructsClassesInheritance\S04D02_Enemies\bin\Debug\S04D02_Enemies.exe
+\\psf\home\documents\visual studio 2013\Projects\S04D02_StructsClassesInheritance\S04D02_Enemies\bin\Debug\S04D02_Enemies.pdb
+\\psf\home\documents\visual studio 2013\Projects\S04D02_StructsClassesInheritance\S04D02_Enemies\obj\Debug\S04D02_Enemies.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\S04D02_StructsClassesInheritance\S04D02_Enemies\obj\Debug\S04D02_Enemies.exe
+\\psf\home\documents\visual studio 2013\Projects\S04D02_StructsClassesInheritance\S04D02_Enemies\obj\Debug\S04D02_Enemies.pdb
