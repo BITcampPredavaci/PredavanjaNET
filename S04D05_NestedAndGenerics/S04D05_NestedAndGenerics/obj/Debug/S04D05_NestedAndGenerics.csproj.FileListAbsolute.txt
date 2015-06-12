@@ -1,0 +1,6 @@
+\\psf\home\documents\visual studio 2013\Projects\S04D05_NestedAndGenerics\S04D05_NestedAndGenerics\bin\Debug\S04D05_NestedAndGenerics.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S04D05_NestedAndGenerics\S04D05_NestedAndGenerics\bin\Debug\S04D05_NestedAndGenerics.exe
+\\psf\home\documents\visual studio 2013\Projects\S04D05_NestedAndGenerics\S04D05_NestedAndGenerics\bin\Debug\S04D05_NestedAndGenerics.pdb
+\\psf\home\documents\visual studio 2013\Projects\S04D05_NestedAndGenerics\S04D05_NestedAndGenerics\obj\Debug\S04D05_NestedAndGenerics.exe
+\\psf\home\documents\visual studio 2013\Projects\S04D05_NestedAndGenerics\S04D05_NestedAndGenerics\obj\Debug\S04D05_NestedAndGenerics.pdb
+\\psf\home\documents\visual studio 2013\Projects\S04D05_NestedAndGenerics\S04D05_NestedAndGenerics\obj\Debug\S04D05_NestedAndGenerics.csprojResolveAssemblyReference.cache
