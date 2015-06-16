@@ -1,0 +1,6 @@
+\\psf\home\documents\visual studio 2013\Projects\Homework_2_Stack\Homework_2_Stack\bin\Debug\Homework_2_Stack.exe.config
+\\psf\home\documents\visual studio 2013\Projects\Homework_2_Stack\Homework_2_Stack\bin\Debug\Homework_2_Stack.exe
+\\psf\home\documents\visual studio 2013\Projects\Homework_2_Stack\Homework_2_Stack\bin\Debug\Homework_2_Stack.pdb
+\\psf\home\documents\visual studio 2013\Projects\Homework_2_Stack\Homework_2_Stack\obj\Debug\Homework_2_Stack.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\Homework_2_Stack\Homework_2_Stack\obj\Debug\Homework_2_Stack.exe
+\\psf\home\documents\visual studio 2013\Projects\Homework_2_Stack\Homework_2_Stack\obj\Debug\Homework_2_Stack.pdb
