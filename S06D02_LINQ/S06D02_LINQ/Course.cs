@@ -6,11 +6,19 @@ using System.Threading.Tasks;
 
 namespace S06D02_LINQ
 {
+    /// <summary>
+    /// Represents a single course
+    /// </summary>
     class Course
     {
 
         private string name;
         private string professor;
+
+        /// <summary>
+        /// Name of the course
+        /// </summary>
+        public string Name { get { return name; } }
 
         public Course(string name, string professor)
         {
@@ -28,6 +36,8 @@ namespace S06D02_LINQ
                 return false;
             }
         }
+
+       
 
 
         public override string ToString()

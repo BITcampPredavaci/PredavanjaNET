@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace S06D02_LINQ
 {
+    /// <summary>
+    /// Represents a course taken by a student. Contains student, course
+    /// and grade
+    /// </summary>
     class TakenCourse
     {
 
@@ -26,7 +30,14 @@ namespace S06D02_LINQ
             this.grade = grade;
         }
 
+        /// <summary>
+        /// The course taken
+        /// </summary>
         public Course Course { get { return course; } }
+       
+        /// <summary>
+        /// The grade for the course
+        /// </summary>
         public int Grade
         {
             get { return grade; }
