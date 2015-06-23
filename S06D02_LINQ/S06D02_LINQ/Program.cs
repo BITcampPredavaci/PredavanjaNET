@@ -57,13 +57,42 @@ namespace S06D02_LINQ
 
         static void Main(string[] args)
         {
+            Student[] students = new Student[4];
+            students[0] = new Student("Hazim", "Begagic");
+            students[1] = new Student("Tinka", "Milinovic");
+            students[2] = new Student("Dejana", "Rosuljas");
+            students[3] = new Student("Segmedina", "Srna");
 
-            Student s = new Student("John", "Doe");
-            Course c = new Course("Math", "Miller");
+            Course[] courses = new Course[8];
+            courses[0] = new Course("Intro to Programming", "Tarik Filipovic");
+            courses[1] = new Course("Algorithms", "Thomas");
+            courses[2] = new Course("Data Structures", "Oliver Mlakar");
+            courses[3] = new Course("Object Oriented Programming", "Emerik Gudelj");
+            courses[4] = new Course("Intro to Databases", "Bruce Lee");
+            courses[5] = new Course("Mathemathics", "Harry Miller");
+            courses[6] = new Course("String theory", "Sheldon Cooper");
+            courses[7] = new Course("Quantum Mechanics", "Stephen Hawking");
+            
+            Random rand = new Random();
+            for (int i = 0; i < students.Length; i++) {
+                int j = 0;
+                while (j < 6) {
+                    int grade = 5 + rand.Next(6);
+                    int courseId = rand.Next(8);
+                    if (students[i].AddCourse(courses[courseId], grade))
+                        j++;
+                }
+            }
 
-            s.AddCourse(c);
-            Console.WriteLine(s.AddCourse(c));
+            foreach (Student s in students) {
+                Console.WriteLine(s);
+            }
 
+
+            IEnumerable<string> avrg8 = students
+                .Where(x => x.AverageGrade > 7)
+                .Select(x => x.Name);
+            PrintEnumerable(avrg8);
         }
     }
 }

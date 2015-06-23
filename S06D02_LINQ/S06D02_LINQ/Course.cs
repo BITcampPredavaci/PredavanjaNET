@@ -19,7 +19,23 @@ namespace S06D02_LINQ
         }
 
 
-       
+        public override bool Equals(object obj)
+        {
+            if (obj is Course) {
+                Course other = (Course)obj;
+                return this.name == other.name;
+            } else {
+                return false;
+            }
+        }
+
+
+        public override string ToString()
+        {
+            return String.Format("{0}, {1}", name, professor);
+        }
+
+
 
     }
 }
