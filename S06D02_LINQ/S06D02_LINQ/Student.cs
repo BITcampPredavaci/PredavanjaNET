@@ -9,13 +9,11 @@ namespace S06D02_LINQ
     /// <summary>
     /// Class represents a student
     /// </summary>
-    class Student
+    class Student : Person
     {
 
         private static int STUDENT_COUNT = 1;
 
-        private string name;
-        private string lastName;
         private int studentId;
         private List<TakenCourse> courses;
 
@@ -24,27 +22,23 @@ namespace S06D02_LINQ
         /// </summary>
         public double AverageGrade { get { return GetAverageGrade(); } }
        
-        /// <summary>
-        /// Student's name
-        /// </summary>
-        public string Name { get { return name; } }
-
-        public string LastName { get { return lastName; } }
+       
 
         /// <summary>
         /// Student's ID
         /// </summary>
         public int StudentId { get { return studentId; } }
 
+
+        public List<TakenCourse> CoursesTaken { get { return courses; } }
+
         /// <summary>
         /// Student constructor, the student ID is automathicaly generated
         /// </summary>
         /// <param name="name">name of the student</param>
         /// <param name="lastName">last name of the student</param>
-        public Student(string name, string lastName)
+        public Student(string name, string lastName, int age) : base (name, lastName, age)
         {
-            this.name = name;
-            this.lastName = lastName;
             this.studentId = STUDENT_COUNT++;
             this.courses = new List<TakenCourse>();
         }
@@ -134,8 +128,8 @@ namespace S06D02_LINQ
 
         public override string ToString()
         {
-            string output = name + " " + lastName + " Avrg: " + GetAverageGrade();
-            output += "\nGrades: \n";
+            string output = base.ToString() + " Avrg: " + GetAverageGrade();
+            output += "\n==Grades==\n";
             foreach (TakenCourse tc in courses) {
                 output += tc + "\n";
             }

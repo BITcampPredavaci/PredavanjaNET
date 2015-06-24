@@ -57,28 +57,36 @@ namespace S06D02_LINQ
 
         static void LINQSamplePartTwo()
         {
-            Student[] students = new Student[4];
-            students[0] = new Student("Hazim", "Begagic");
-            students[1] = new Student("Tinka", "Milinovic");
-            students[2] = new Student("Dejana", "Rosuljas");
-            students[3] = new Student("Segmedina", "Srna");
-
-            Course[] courses = new Course[8];
-            courses[0] = new Course("Intro to Programming", "Tarik Filipovic");
-            courses[1] = new Course("Algorithms", "Thomas");
-            courses[2] = new Course("Data Structures", "Oliver Mlakar");
-            courses[3] = new Course("Object Oriented Programming", "Emerik Gudelj");
-            courses[4] = new Course("Intro to Databases", "Bruce Lee");
-            courses[5] = new Course("Mathemathics", "Harry Miller");
-            courses[6] = new Course("String theory", "Sheldon Cooper");
-            courses[7] = new Course("Quantum Mechanics", "Stephen Hawking");
-
             Random rand = new Random();
+            Student[] students = new Student[4];
+            students[0] = new Student("Hazim", "Begagic", rand.Next(18, 50));
+            students[1] = new Student("Tinka", "Milinovic", rand.Next(18, 50));
+            students[2] = new Student("Dejana", "Rosuljas", rand.Next(18, 50));
+            students[3] = new Student("Segmedina", "Srna", rand.Next(18, 50));
+
+            Professor[] professors = new Professor[4];
+            professors[0] = new Professor("Tarik", "Filipovic", rand.Next(22, 60));
+            professors[1] = new Professor("Thomas", "Cormmen", rand.Next(22, 60));
+            professors[2] = new Professor("Sheldon", "Cooper", rand.Next(22, 60));
+            professors[3] = new Professor("Stephen", "Hawking", rand.Next(22, 60));
+
+            Course[] courses = new Course[9];
+            courses[0] = new Course("Intro to Programming", professors[0], "CS101");
+            courses[1] = new Course("Algorithms", professors[1], "CS302");
+            courses[2] = new Course("Data Structures", professors[1], "CS202");
+            courses[3] = new Course("Object Oriented Programming", professors[2], "CS105");
+            courses[4] = new Course("Intro to Databases", professors[2], "CS200");
+            courses[5] = new Course("Mathemathics", professors[3], "MATH101");
+            courses[6] = new Course("Mathemathics", professors[3], "MATH102");
+            courses[7] = new Course("String theory", professors[2], "PH101");
+            courses[8] = new Course("Quantum Mechanics", professors[3], "PH101");
+
+            
             for (int i = 0; i < students.Length; i++) {
                 int j = 0;
                 while (j < 6) {
                     int grade = 5 + rand.Next(6);
-                    int courseId = rand.Next(8);
+                    int courseId = rand.Next(9);
                     if (students[i].AddCourse(courses[courseId], grade))
                         j++;
                 }
@@ -89,56 +97,41 @@ namespace S06D02_LINQ
             }
 
 
-            IEnumerable<string> filter = students
-                .Where(x => x.GetGrade("Intro to Programming") > 7
-                 || x.GetGrade("Mathemathics") > 6)
-                .Select(x => x.Name)
-                .OrderBy(x => x);
-
-            PrintEnumerable(filter);
-
-            List<string> best2 = students
-                .OrderByDescending(x => x.AverageGrade)
-                .Take(2)
-                .Select(x => x.Name)
-                .ToList();
-            List<string> worst2 = students
-                .OrderBy(x => x.AverageGrade)
-                .Take(2)
-                .Select(x => x.Name)
-                .ToList();
-
-            Console.WriteLine("Best 2: ");
-            PrintEnumerable(best2);
-
-            Console.WriteLine("Worst 2: ");
-            PrintEnumerable(worst2);
         }
 
-        static void InitData(Student[] students, Course[] courses)
+        static void InitData(Student[] students, Course[] courses, Professor[] professors)
         {
-           
-            students[0] = new Student("Hazim", "Begagic");
-            students[1] = new Student("Tinka", "Milinovic");
-            students[2] = new Student("Dejana", "Rosuljas");
-            students[3] = new Student("Segmedina", "Srna");
-
-           
-            courses[0] = new Course("Intro to Programming", "Tarik Filipovic");
-            courses[1] = new Course("Algorithms", "Thomas");
-            courses[2] = new Course("Data Structures", "Oliver Mlakar");
-            courses[3] = new Course("Object Oriented Programming", "Emerik Gudelj");
-            courses[4] = new Course("Intro to Databases", "Bruce Lee");
-            courses[5] = new Course("Mathemathics", "Harry Miller");
-            courses[6] = new Course("String theory", "Sheldon Cooper");
-            courses[7] = new Course("Quantum Mechanics", "Stephen Hawking");
 
             Random rand = new Random();
+           
+            students[0] = new Student("Hazim", "Begagic", rand.Next(18, 50));
+            students[1] = new Student("Tinka", "Milinovic", rand.Next(18, 50));
+            students[2] = new Student("Dejana", "Rosuljas", rand.Next(18, 50));
+            students[3] = new Student("Segmedina", "Srna", rand.Next(18, 50));
+
+            
+            professors[0] = new Professor("Tarik", "Filipovic", rand.Next(22, 60));
+            professors[1] = new Professor("Thomas", "Cormmen", rand.Next(22, 60));
+            professors[2] = new Professor("Sheldon", "Cooper", rand.Next(22, 60));
+            professors[3] = new Professor("Stephen", "Hawking", rand.Next(22, 60));
+
+           
+            courses[0] = new Course("Intro to Programming", professors[0], "CS101");
+            courses[1] = new Course("Algorithms", professors[1], "CS302");
+            courses[2] = new Course("Data Structures", professors[1], "CS202");
+            courses[3] = new Course("Object Oriented Programming", professors[2], "CS105");
+            courses[4] = new Course("Intro to Databases", professors[2], "CS200");
+            courses[5] = new Course("Mathemathics", professors[3], "MATH101");
+            courses[6] = new Course("Mathemathics", professors[3], "MATH102");
+            courses[7] = new Course("String theory", professors[2], "PH101");
+            courses[8] = new Course("Quantum Mechanics", professors[3], "PH101");
+
+
             for (int i = 0; i < students.Length; i++) {
                 int j = 0;
                 while (j < 6) {
                     int grade = 5 + rand.Next(6);
-                    int courseId = rand.Next(8);
+                    int courseId = rand.Next(9);
                     if (students[i].AddCourse(courses[courseId], grade))
                         j++;
                 }
@@ -148,39 +141,30 @@ namespace S06D02_LINQ
         static void Main(string[] args)
         {
             Student[] students = new Student[4];
-            Course[] courses = new Course[8];
+            Course[] courses = new Course[9];
+            Professor[] professors = new Professor[4];
 
-            InitData(students, courses);
-            PrintEnumerable(students);
+            InitData(students, courses, professors);
+            
+            
+            Console.WriteLine("Unique course names: ");
+            IEnumerable<string> names = courses.Select(x => x.Name).Distinct();
+            PrintEnumerable(names);
 
-            PrintEnumerable(courses);
-            Console.WriteLine("Pick a course: " );
-            int coursePosition = Convert.ToInt16(Console.ReadLine());
-           
-            Course selected = courses[coursePosition-1];
+            Console.WriteLine("Students and averages: ");
+            IEnumerable<string> studentAndAverage = students.Select(x => String.Format("{0}: {1:0.0}",x.Name, x.AverageGrade));
+            PrintEnumerable(studentAndAverage);
 
-            List<string> best2 = students
-                .Where(x => x.GetGrade(selected.Name) > -1)
-                .OrderByDescending(x => x.AverageGrade)
-                .Take(2)
-                .Select(x => x.Name).ToList();
+            Console.WriteLine("Best student name and id: ");
+            Student bestStudent = students.First(x => x.AverageGrade == students.Max(y => y.AverageGrade));
+            Console.WriteLine(bestStudent.Name + " " + bestStudent.StudentId);
 
-            Console.WriteLine("Best 2 students taking " + selected.Name);
-            PrintEnumerable(best2);
-
-            List<string> bestGrade = students
-                .Where(x => x.GetGrade(selected.Name) > -1)
-                .OrderByDescending(x => x.GetGrade(selected.Name))
-                .Take(1)
-                .Select(x => x.Name).ToList();
-            Console.WriteLine("Best grade in " + selected.Name);
-            Console.WriteLine(bestGrade.First());
-
-
-
-
+            Console.WriteLine("Worst student name and id: ");
+            Student worstStudent = students.First(x => x.AverageGrade == students.Min(y => y.AverageGrade));
+            Console.WriteLine(worstStudent.Name + " " + worstStudent.StudentId);
 
             
+
 
         }
     }
