@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Forms</title>
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="col-md-8">
+				<table class="table" id="peopleTable">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Surname</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Test</td>
+							<td>TestS</td>
+						</tr>
+						
+						
+						
+					</tbody>
+				</table>
+			</div>
+			<div class="col-md-4">
+				<form id="peopleForm">
+					
+						<label for="personName">Name:</label>
+						<input type="text" id="personName" name="personName"  class="form-control"/>
+					
+						<label for="personSurname">Surname:</label>
+						<input type="text" id="personSurname" name="personSurname"  class="form-control"/>
+						
+						<input type="submit" class="btn btn-success form-control" value="Add" />
+					
+				</form>
+			</div>
+		</div>
+		<script src="./js/jquery-2.1.4.min.js"></script>
+		<script src="./js/bootstrap.min.js"></script>
+		<script src="./js/scriptForm.js"></script>
+	</body>
+
+</html>
