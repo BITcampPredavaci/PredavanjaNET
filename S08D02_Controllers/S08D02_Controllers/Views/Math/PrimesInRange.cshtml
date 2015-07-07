@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "PrimesInRange";
+}
+
+<h2>PrimesInRange</h2>
+
+<form method="post">
+    <input type="number" name="start" />
+    <input type="number" name="end" />
+    <input type="submit" value="Check Range" />
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th> Number </th>
+            <th> Is Prime </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ViewBag.Numbers) {
+            <tr class="@(item.IsPrime == true ? "success" : "danger")">
+                <td>@item.Value</td>
+                <td>@item.IsPrime</td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+

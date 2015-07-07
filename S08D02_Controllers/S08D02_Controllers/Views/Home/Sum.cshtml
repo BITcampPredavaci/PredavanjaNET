@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Sum";
+}
+
+<h2>Sum</h2>
+
+<form method="post" id="operationForm">
+    <input type="number" name="a" value="@ViewBag.a" />
+    <input type="number" name="b" value="@ViewBag.b" />
+    <input type="checkbox" name="isMultiplication" value="true" />
+    <input type="submit" />
+</form>
+
+<h3> Result: @ViewBag.Result </h3>
+

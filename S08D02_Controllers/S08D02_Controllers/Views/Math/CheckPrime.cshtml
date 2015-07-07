@@ -1,0 +1,13 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1> Check Prime </h1>
+<form method="post">
+    <input type="number" name="number" />
+    <input type="submit" />
+</form>
+
+
+<h3 style="color: @(ViewBag.IsPrime == true ? "green" : "red");" > Prime: @ViewBag.IsPrime </h3>
+
