@@ -1,0 +1,71 @@
+﻿@model IEnumerable<S08D04_MiniApp.Models.MicroPost>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="col-md-9 col-xs-12">
+    @foreach (var item in Model) {
+        <div class="card col-md-5 col-xs-12">
+            <h5> @Html.DisplayFor(modelItem => item.Title) </h5>
+            <p class="card-category">@Html.DisplayFor(modelItem => item.Category.Name)</p>
+            <p class="card-content"> @Html.DisplayFor(modelItem => item.Content) </p>
+            <br />
+            <p class="card-links">
+                @Html.ActionLink("Edit", "Edit", "MicroPosts", new { id = item.MicroPostId }, null)
+                @Html.ActionLink("Delete", "Delete", "MicroPosts", new { id = item.MicroPostId }, null)
+            </p>
+        </div>
+    }
+
+    <nav class="posts-nav col-md-offset-4">
+        <ul class="pagination">
+            <li>
+                <a href="@Url.Action("Index", new { page = 1 })" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+
+            @if (ViewBag.Previous != null) {
+                <li>
+                    @Html.ActionLink(
+                    "Previous",
+                    "Index",
+                    new { page = ViewBag.Previous })
+                </li>
+            }
+
+            <li>
+                @Html.ActionLink(
+                "Current",
+                "Index",
+                new { page = ViewBag.CurrentPage }
+                )
+            </li>
+
+            @if (ViewBag.Next != null) {
+                <li>
+                    @Html.ActionLink(
+                    "Next",
+                    "Index",
+                    new { page = ViewBag.Next })
+                </li>
+            }
+
+            <li>
+                <a href="@Url.Action("Index", new {page = ViewBag.LastPage})" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div class="col-md-3">
+    @Html.Partial("~/Views/Shared/_CreatePost.cshtml",
+    new S08D04_MiniApp.Models.MicroPost())
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
