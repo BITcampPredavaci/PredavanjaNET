@@ -1,0 +1,30 @@
+﻿@model S08D05_MinniApp.Models.MicroPostViewModel
+
+<div class="col-md-9 col-xs-12">
+    @foreach (var item in Model.Posts) {
+        <div class="card col-md-5 col-xs-12">
+            <h5> @Html.DisplayFor(modelItem => item.Title) </h5>
+            <p class="card-category">@Html.ActionLink(item.Category.Name, "Details", "Categories", new { id = item.Category.CategoryId }, null) </p>
+            @if (item.ImageUrl != null) { 
+                <img src="@item.ImageUrl" />
+            }
+            <p class="card-content"> @Html.DisplayFor(modelItem => item.Content) </p>
+            <br />
+            <p class="card-links">
+                @Html.ActionLink("Edit", "Edit", "MicroPosts", new { id = item.MicroPostId }, null)
+                @Html.ActionLink("Delete", "Delete", "MicroPosts", new { id = item.MicroPostId }, null)
+            </p>
+        </div>
+    }
+
+
+</div>
+<div class="col-md-3">
+    @Html.Partial("~/Views/Shared/_CreatePost.cshtml",
+    new S08D04_MiniApp.Models.MicroPost())
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

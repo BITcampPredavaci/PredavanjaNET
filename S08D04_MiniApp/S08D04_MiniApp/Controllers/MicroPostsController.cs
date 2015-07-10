@@ -10,7 +10,7 @@ using S08D04_MiniApp.Models;
 
 namespace S08D04_MiniApp.Controllers
 {
-    [Authorize]
+   
     public class MicroPostsController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();

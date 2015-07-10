@@ -1,0 +1,44 @@
+﻿@model S08D05_MinniApp.Models.MicroPostViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@Html.Partial("~/Views/Shared/_MicroPostsList.cshtml", Model)
+
+<nav class="posts-nav col-md-offset-4">
+    <ul class="pagination">
+        <li>
+            <a href="@Url.Action("Index", new { page = 1 })" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+            </a>
+        </li>
+
+        @if (Model.Previous != 0) {
+            <li>
+                <a href="@Url.Action("Index", new {page = Model.Last})" aria-label="Next">
+                    @Model.Previous
+                </a>
+            </li>
+        }
+
+        <li>
+            <a href="@Url.Action("Index", new {page = Model.Last})" aria-label="Next">
+                @Model.Current
+            </a>
+        </li>
+
+        @if (Model.Next != 0) {
+            <li>
+                <a href="@Url.Action("Index", new {page = Model.Next})" aria-label="Next">
+                    @Model.Next
+                </a>
+            </li>
+        }
+
+        <li>
+            <a href="@Url.Action("Index", new {page = Model.Last})" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+            </a>
+        </li>
+    </ul>
+</nav>

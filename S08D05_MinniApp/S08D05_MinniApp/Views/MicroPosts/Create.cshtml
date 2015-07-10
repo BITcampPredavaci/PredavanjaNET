@@ -1,0 +1,17 @@
+﻿@model S08D04_MiniApp.Models.MicroPost
+
+@{
+    ViewBag.Title = "Create";
+}
+
+   
+    
+   @Html.Partial("~/Views/Shared/_CreatePost.cshtml")
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
