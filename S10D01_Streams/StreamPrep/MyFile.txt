@@ -1,0 +1,1 @@
+﻿Neki duzi tekst. Ovaj file sluzi samo za citanje. I hocu da ga mogu editovati u VS-u.
