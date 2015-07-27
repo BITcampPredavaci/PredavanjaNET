@@ -1,0 +1,15 @@
+﻿<Window x:Class="S11D01_FileCleaner.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <WrapPanel Margin="0,0,414,0">
+            <Button Name="SelectDestination" Click="SelectDestination_Click" Content="Select Destination" />
+            <Button Name="SelectFiles" Click="SelectFiles_Click" Content="SelectFiles" IsEnabled="False"/>
+            <Button Name="StartClean" Click="StartClean_Click" Content="Clean" IsEnabled="False" />
+        </WrapPanel>
+        <WrapPanel Margin="122,0,0,0">
+            <TextBox Name="FilesSelected" Height="319" Width="394" />
+        </WrapPanel>
+    </Grid>
+</Window>

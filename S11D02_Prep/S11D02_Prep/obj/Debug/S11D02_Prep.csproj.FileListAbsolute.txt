@@ -1,0 +1,13 @@
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\bin\Debug\S11D02_Prep.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\obj\Debug\S11D02_Prep.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\obj\Debug\MainWindow.baml
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\obj\Debug\MainWindow.g.cs
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\obj\Debug\App.g.cs
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\obj\Debug\S11D02_Prep_MarkupCompile.cache
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\obj\Debug\S11D02_Prep.g.resources
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\obj\Debug\S11D02_Prep.Properties.Resources.resources
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\obj\Debug\S11D02_Prep.csproj.GenerateResource.Cache
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\bin\Debug\S11D02_Prep.exe
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\bin\Debug\S11D02_Prep.pdb
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\obj\Debug\S11D02_Prep.exe
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Prep\S11D02_Prep\obj\Debug\S11D02_Prep.pdb

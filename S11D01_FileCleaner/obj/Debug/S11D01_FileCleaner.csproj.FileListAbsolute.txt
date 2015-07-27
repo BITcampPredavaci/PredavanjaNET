@@ -1,0 +1,13 @@
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\bin\Debug\S11D01_FileCleaner.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\obj\Debug\S11D01_FileCleaner.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\obj\Debug\MainWindow.baml
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\obj\Debug\MainWindow.g.cs
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\obj\Debug\App.g.cs
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\obj\Debug\S11D01_FileCleaner_MarkupCompile.cache
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\obj\Debug\S11D01_FileCleaner.g.resources
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\obj\Debug\S11D01_FileCleaner.Properties.Resources.resources
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\obj\Debug\S11D01_FileCleaner.csproj.GenerateResource.Cache
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\bin\Debug\S11D01_FileCleaner.exe
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\bin\Debug\S11D01_FileCleaner.pdb
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\obj\Debug\S11D01_FileCleaner.exe
+\\psf\home\documents\visual studio 2013\Projects\S11D01_FileCleaner\S11D01_FileCleaner\obj\Debug\S11D01_FileCleaner.pdb
