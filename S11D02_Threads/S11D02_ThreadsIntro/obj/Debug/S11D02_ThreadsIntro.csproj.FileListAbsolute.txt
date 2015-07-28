@@ -1,0 +1,6 @@
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Threads\S11D02_ThreadsIntro\bin\Debug\S11D02_ThreadsIntro.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Threads\S11D02_ThreadsIntro\bin\Debug\S11D02_ThreadsIntro.exe
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Threads\S11D02_ThreadsIntro\bin\Debug\S11D02_ThreadsIntro.pdb
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Threads\S11D02_ThreadsIntro\obj\Debug\S11D02_ThreadsIntro.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Threads\S11D02_ThreadsIntro\obj\Debug\S11D02_ThreadsIntro.exe
+\\psf\home\documents\visual studio 2013\Projects\S11D02_Threads\S11D02_ThreadsIntro\obj\Debug\S11D02_ThreadsIntro.pdb
