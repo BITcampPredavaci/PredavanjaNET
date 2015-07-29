@@ -1,0 +1,6 @@
+\\psf\home\documents\visual studio 2013\Projects\S11D03_SecurityGrep\S11D03_SecurityGrep\bin\Debug\S11D03_SecurityGrep.exe.config
+\\psf\home\documents\visual studio 2013\Projects\S11D03_SecurityGrep\S11D03_SecurityGrep\bin\Debug\S11D03_SecurityGrep.exe
+\\psf\home\documents\visual studio 2013\Projects\S11D03_SecurityGrep\S11D03_SecurityGrep\bin\Debug\S11D03_SecurityGrep.pdb
+\\psf\home\documents\visual studio 2013\Projects\S11D03_SecurityGrep\S11D03_SecurityGrep\obj\Debug\S11D03_SecurityGrep.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\S11D03_SecurityGrep\S11D03_SecurityGrep\obj\Debug\S11D03_SecurityGrep.exe
+\\psf\home\documents\visual studio 2013\Projects\S11D03_SecurityGrep\S11D03_SecurityGrep\obj\Debug\S11D03_SecurityGrep.pdb
