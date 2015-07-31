@@ -1,0 +1,16 @@
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\bin\Debug\S11D05_Recap.exe.config
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\bin\Debug\S11D05_Recap.exe
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\bin\Debug\S11D05_Recap.pdb
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\bin\Debug\ChatHelper.dll
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\bin\Debug\ChatHelper.pdb
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\obj\Debug\MainWindow.g.cs
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\obj\Debug\App.g.cs
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\obj\Debug\S11D05_Recap_MarkupCompile.cache
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\obj\Debug\S11D05_Recap_MarkupCompile.lref
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\obj\Debug\MainWindow.baml
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\obj\Debug\S11D05_Recap.g.resources
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\obj\Debug\S11D05_Recap.Properties.Resources.resources
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\obj\Debug\S11D05_Recap.csproj.GenerateResource.Cache
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\obj\Debug\S11D05_Recap.exe
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\obj\Debug\S11D05_Recap.pdb
+c:\users\bttalic\documents\visual studio 2015\Projects\S11D05_Recap\S11D05_Recap\obj\Debug\S11D05_Recap.csprojResolveAssemblyReference.cache
