@@ -1,0 +1,6 @@
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\S12D01_NetworkI\bin\Debug\S12D01_NetworkI.exe.config
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\S12D01_NetworkI\bin\Debug\S12D01_NetworkI.exe
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\S12D01_NetworkI\bin\Debug\S12D01_NetworkI.pdb
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\S12D01_NetworkI\obj\Debug\S12D01_NetworkI.csprojResolveAssemblyReference.cache
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\S12D01_NetworkI\obj\Debug\S12D01_NetworkI.exe
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\S12D01_NetworkI\obj\Debug\S12D01_NetworkI.pdb
