@@ -1,0 +1,14 @@
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\bin\Debug\S12D02_FtpClient.exe.config
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\bin\Debug\S12D02_FtpClient.exe
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\bin\Debug\S12D02_FtpClient.pdb
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\obj\Debug\S12D02_FtpClient.csprojResolveAssemblyReference.cache
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\obj\Debug\MainWindow.g.cs
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\obj\Debug\App.g.cs
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\obj\Debug\S12D02_FtpClient_MarkupCompile.cache
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\obj\Debug\S12D02_FtpClient_MarkupCompile.lref
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\obj\Debug\MainWindow.baml
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\obj\Debug\S12D02_FtpClient.g.resources
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\obj\Debug\S12D02_FtpClient.Properties.Resources.resources
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\obj\Debug\S12D02_FtpClient.csproj.GenerateResource.Cache
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\obj\Debug\S12D02_FtpClient.exe
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D02_FtpClient\S12D02_FtpClient\obj\Debug\S12D02_FtpClient.pdb
