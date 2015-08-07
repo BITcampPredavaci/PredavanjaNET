@@ -1,0 +1,6 @@
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D05_Servers\S12D05_Servers\bin\Debug\S12D05_Servers.exe.config
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D05_Servers\S12D05_Servers\bin\Debug\S12D05_Servers.exe
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D05_Servers\S12D05_Servers\bin\Debug\S12D05_Servers.pdb
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D05_Servers\S12D05_Servers\obj\Debug\S12D05_Servers.csprojResolveAssemblyReference.cache
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D05_Servers\S12D05_Servers\obj\Debug\S12D05_Servers.exe
+c:\users\bttalic\documents\visual studio 2015\Projects\S12D05_Servers\S12D05_Servers\obj\Debug\S12D05_Servers.pdb
