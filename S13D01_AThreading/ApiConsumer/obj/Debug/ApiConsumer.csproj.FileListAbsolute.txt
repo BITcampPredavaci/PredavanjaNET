@@ -1,0 +1,8 @@
+c:\users\bttalic\documents\visual studio 2015\Projects\S13D01_AThreading\ApiConsumer\bin\Debug\ApiConsumer.exe.config
+c:\users\bttalic\documents\visual studio 2015\Projects\S13D01_AThreading\ApiConsumer\obj\Debug\ApiConsumer.csprojResolveAssemblyReference.cache
+c:\users\bttalic\documents\visual studio 2015\Projects\S13D01_AThreading\ApiConsumer\bin\Debug\ApiConsumer.exe
+c:\users\bttalic\documents\visual studio 2015\Projects\S13D01_AThreading\ApiConsumer\bin\Debug\ApiConsumer.pdb
+c:\users\bttalic\documents\visual studio 2015\Projects\S13D01_AThreading\ApiConsumer\bin\Debug\Newtonsoft.Json.dll
+c:\users\bttalic\documents\visual studio 2015\Projects\S13D01_AThreading\ApiConsumer\bin\Debug\Newtonsoft.Json.xml
+c:\users\bttalic\documents\visual studio 2015\Projects\S13D01_AThreading\ApiConsumer\obj\Debug\ApiConsumer.exe
+c:\users\bttalic\documents\visual studio 2015\Projects\S13D01_AThreading\ApiConsumer\obj\Debug\ApiConsumer.pdb
