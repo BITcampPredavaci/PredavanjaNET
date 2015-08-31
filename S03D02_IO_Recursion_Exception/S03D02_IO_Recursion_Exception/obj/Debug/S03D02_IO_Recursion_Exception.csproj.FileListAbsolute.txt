@@ -1,6 +1,0 @@
-\\psf\home\documents\visual studio 2013\Projects\S03D02_IO_Recursion_Exception\S03D02_IO_Recursion_Exception\bin\Debug\S03D02_IO_Recursion_Exception.exe.config
-\\psf\home\documents\visual studio 2013\Projects\S03D02_IO_Recursion_Exception\S03D02_IO_Recursion_Exception\bin\Debug\S03D02_IO_Recursion_Exception.exe
-\\psf\home\documents\visual studio 2013\Projects\S03D02_IO_Recursion_Exception\S03D02_IO_Recursion_Exception\bin\Debug\S03D02_IO_Recursion_Exception.pdb
-\\psf\home\documents\visual studio 2013\Projects\S03D02_IO_Recursion_Exception\S03D02_IO_Recursion_Exception\obj\Debug\S03D02_IO_Recursion_Exception.csprojResolveAssemblyReference.cache
-\\psf\home\documents\visual studio 2013\Projects\S03D02_IO_Recursion_Exception\S03D02_IO_Recursion_Exception\obj\Debug\S03D02_IO_Recursion_Exception.exe
-\\psf\home\documents\visual studio 2013\Projects\S03D02_IO_Recursion_Exception\S03D02_IO_Recursion_Exception\obj\Debug\S03D02_IO_Recursion_Exception.pdb

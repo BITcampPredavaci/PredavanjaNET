@@ -1,6 +1,0 @@
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\FtpClient2\bin\Debug\FtpClient2.exe.config
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\FtpClient2\bin\Debug\FtpClient2.exe
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\FtpClient2\bin\Debug\FtpClient2.pdb
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\FtpClient2\obj\Debug\FtpClient2.csprojResolveAssemblyReference.cache
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\FtpClient2\obj\Debug\FtpClient2.exe
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\FtpClient2\obj\Debug\FtpClient2.pdb

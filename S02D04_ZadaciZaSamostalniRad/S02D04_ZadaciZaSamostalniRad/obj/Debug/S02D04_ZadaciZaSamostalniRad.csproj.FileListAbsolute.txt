@@ -1,6 +1,0 @@
-\\psf\home\documents\visual studio 2013\Projects\S02D04_ZadaciZaSamostalniRad\S02D04_ZadaciZaSamostalniRad\bin\Debug\S02D04_ZadaciZaSamostalniRad.exe.config
-\\psf\home\documents\visual studio 2013\Projects\S02D04_ZadaciZaSamostalniRad\S02D04_ZadaciZaSamostalniRad\obj\Debug\S02D04_ZadaciZaSamostalniRad.csprojResolveAssemblyReference.cache
-\\psf\home\documents\visual studio 2013\Projects\S02D04_ZadaciZaSamostalniRad\S02D04_ZadaciZaSamostalniRad\bin\Debug\S02D04_ZadaciZaSamostalniRad.exe
-\\psf\home\documents\visual studio 2013\Projects\S02D04_ZadaciZaSamostalniRad\S02D04_ZadaciZaSamostalniRad\bin\Debug\S02D04_ZadaciZaSamostalniRad.pdb
-\\psf\home\documents\visual studio 2013\Projects\S02D04_ZadaciZaSamostalniRad\S02D04_ZadaciZaSamostalniRad\obj\Debug\S02D04_ZadaciZaSamostalniRad.exe
-\\psf\home\documents\visual studio 2013\Projects\S02D04_ZadaciZaSamostalniRad\S02D04_ZadaciZaSamostalniRad\obj\Debug\S02D04_ZadaciZaSamostalniRad.pdb

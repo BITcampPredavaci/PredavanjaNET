@@ -1,6 +1,0 @@
-\\psf\home\documents\visual studio 2013\Projects\S04D01_ClassAndInheritance\S04D01_ClassAndInheritance\bin\Debug\S04D01_ClassAndInheritance.exe.config
-\\psf\home\documents\visual studio 2013\Projects\S04D01_ClassAndInheritance\S04D01_ClassAndInheritance\bin\Debug\S04D01_ClassAndInheritance.exe
-\\psf\home\documents\visual studio 2013\Projects\S04D01_ClassAndInheritance\S04D01_ClassAndInheritance\bin\Debug\S04D01_ClassAndInheritance.pdb
-\\psf\home\documents\visual studio 2013\Projects\S04D01_ClassAndInheritance\S04D01_ClassAndInheritance\obj\Debug\S04D01_ClassAndInheritance.csprojResolveAssemblyReference.cache
-\\psf\home\documents\visual studio 2013\Projects\S04D01_ClassAndInheritance\S04D01_ClassAndInheritance\obj\Debug\S04D01_ClassAndInheritance.exe
-\\psf\home\documents\visual studio 2013\Projects\S04D01_ClassAndInheritance\S04D01_ClassAndInheritance\obj\Debug\S04D01_ClassAndInheritance.pdb

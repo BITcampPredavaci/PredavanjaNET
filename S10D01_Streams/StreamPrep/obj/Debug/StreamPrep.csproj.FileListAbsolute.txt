@@ -1,7 +1,0 @@
-C:\BitCamp_Code\StreamPrep\StreamPrep\bin\Debug\StreamPrep.exe.config
-C:\BitCamp_Code\StreamPrep\StreamPrep\bin\Debug\StreamPrep.exe
-C:\BitCamp_Code\StreamPrep\StreamPrep\bin\Debug\StreamPrep.pdb
-C:\BitCamp_Code\StreamPrep\StreamPrep\obj\Debug\StreamPrep.exe
-C:\BitCamp_Code\StreamPrep\StreamPrep\obj\Debug\StreamPrep.pdb
-C:\BitCamp_Code\StreamPrep\StreamPrep\bin\Debug\MyFile.txt
-C:\BitCamp_Code\StreamPrep\StreamPrep\obj\Debug\StreamPrep.csprojResolveAssemblyReference.cache

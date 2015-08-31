@@ -1,6 +1,0 @@
-\\psf\home\documents\visual studio 2013\Projects\Tree\Tree\bin\Debug\Tree.exe.config
-\\psf\home\documents\visual studio 2013\Projects\Tree\Tree\bin\Debug\Tree.exe
-\\psf\home\documents\visual studio 2013\Projects\Tree\Tree\bin\Debug\Tree.pdb
-\\psf\home\documents\visual studio 2013\Projects\Tree\Tree\obj\Debug\Tree.csprojResolveAssemblyReference.cache
-\\psf\home\documents\visual studio 2013\Projects\Tree\Tree\obj\Debug\Tree.exe
-\\psf\home\documents\visual studio 2013\Projects\Tree\Tree\obj\Debug\Tree.pdb

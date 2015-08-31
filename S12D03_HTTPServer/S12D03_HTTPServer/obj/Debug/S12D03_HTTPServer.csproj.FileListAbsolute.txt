@@ -1,6 +1,0 @@
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D03_HTTPServer\S12D03_HTTPServer\bin\Debug\S12D03_HTTPServer.exe.config
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D03_HTTPServer\S12D03_HTTPServer\obj\Debug\S12D03_HTTPServer.csprojResolveAssemblyReference.cache
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D03_HTTPServer\S12D03_HTTPServer\bin\Debug\S12D03_HTTPServer.exe
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D03_HTTPServer\S12D03_HTTPServer\bin\Debug\S12D03_HTTPServer.pdb
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D03_HTTPServer\S12D03_HTTPServer\obj\Debug\S12D03_HTTPServer.exe
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D03_HTTPServer\S12D03_HTTPServer\obj\Debug\S12D03_HTTPServer.pdb

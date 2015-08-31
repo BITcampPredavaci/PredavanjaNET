@@ -1,6 +1,0 @@
-\\psf\home\documents\visual studio 2013\Projects\S07D01_Homework\S07D01_Homework\bin\Debug\S07D01_Homework.exe.config
-\\psf\home\documents\visual studio 2013\Projects\S07D01_Homework\S07D01_Homework\bin\Debug\S07D01_Homework.exe
-\\psf\home\documents\visual studio 2013\Projects\S07D01_Homework\S07D01_Homework\bin\Debug\S07D01_Homework.pdb
-\\psf\home\documents\visual studio 2013\Projects\S07D01_Homework\S07D01_Homework\obj\Debug\S07D01_Homework.csprojResolveAssemblyReference.cache
-\\psf\home\documents\visual studio 2013\Projects\S07D01_Homework\S07D01_Homework\obj\Debug\S07D01_Homework.exe
-\\psf\home\documents\visual studio 2013\Projects\S07D01_Homework\S07D01_Homework\obj\Debug\S07D01_Homework.pdb

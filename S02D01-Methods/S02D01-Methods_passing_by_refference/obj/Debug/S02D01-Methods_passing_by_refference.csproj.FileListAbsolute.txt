@@ -1,6 +1,0 @@
-\\psf\home\documents\visual studio 2013\Projects\S02D01-Methods\S02D01-Methods_passing_by_refference\bin\Debug\S02D01-Methods_passing_by_refference.exe.config
-\\psf\home\documents\visual studio 2013\Projects\S02D01-Methods\S02D01-Methods_passing_by_refference\bin\Debug\S02D01-Methods_passing_by_refference.exe
-\\psf\home\documents\visual studio 2013\Projects\S02D01-Methods\S02D01-Methods_passing_by_refference\bin\Debug\S02D01-Methods_passing_by_refference.pdb
-\\psf\home\documents\visual studio 2013\Projects\S02D01-Methods\S02D01-Methods_passing_by_refference\obj\Debug\S02D01-Methods_passing_by_refference.exe
-\\psf\home\documents\visual studio 2013\Projects\S02D01-Methods\S02D01-Methods_passing_by_refference\obj\Debug\S02D01-Methods_passing_by_refference.pdb
-\\psf\home\documents\visual studio 2013\Projects\S02D01-Methods\S02D01-Methods_passing_by_refference\obj\Debug\S02D01-Methods_passing_by_refference.csprojResolveAssemblyReference.cache

@@ -1,0 +1,18 @@
+﻿@model S15D05_Pics.Models.AlbumSearch
+
+@using (Html.BeginForm("Index", "Home", FormMethod.Get ))
+{
+    @Html.DisplayNameFor(model => model.Name)
+    @Html.EditorFor(model => model.Name)
+
+    @Html.DisplayNameFor(model => model.Price)
+    @Html.EditorFor(model => model.Price)
+
+    @Html.DisplayNameFor(model => model.ArtistId)
+    @Html.EditorFor(model => model.ArtistId)
+
+    @Html.DisplayNameFor(model => model.GenreId)
+    @Html.EditorFor(model => model.GenreId)
+
+    <input type="submit" value="Search" />
+}

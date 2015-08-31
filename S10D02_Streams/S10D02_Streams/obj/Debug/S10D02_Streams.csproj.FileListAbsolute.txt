@@ -1,5 +1,0 @@
-C:\BitCamp_Code\S10D02_Streams\S10D02_Streams\bin\Debug\S10D02_Streams.exe.config
-C:\BitCamp_Code\S10D02_Streams\S10D02_Streams\bin\Debug\S10D02_Streams.exe
-C:\BitCamp_Code\S10D02_Streams\S10D02_Streams\bin\Debug\S10D02_Streams.pdb
-C:\BitCamp_Code\S10D02_Streams\S10D02_Streams\obj\Debug\S10D02_Streams.exe
-C:\BitCamp_Code\S10D02_Streams\S10D02_Streams\obj\Debug\S10D02_Streams.pdb

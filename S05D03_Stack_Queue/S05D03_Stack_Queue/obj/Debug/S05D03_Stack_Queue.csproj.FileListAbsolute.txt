@@ -1,6 +1,0 @@
-\\psf\home\documents\visual studio 2013\Projects\S05D03_Stack_Queue\S05D03_Stack_Queue\bin\Debug\S05D03_Stack_Queue.exe.config
-\\psf\home\documents\visual studio 2013\Projects\S05D03_Stack_Queue\S05D03_Stack_Queue\bin\Debug\S05D03_Stack_Queue.exe
-\\psf\home\documents\visual studio 2013\Projects\S05D03_Stack_Queue\S05D03_Stack_Queue\bin\Debug\S05D03_Stack_Queue.pdb
-\\psf\home\documents\visual studio 2013\Projects\S05D03_Stack_Queue\S05D03_Stack_Queue\obj\Debug\S05D03_Stack_Queue.csprojResolveAssemblyReference.cache
-\\psf\home\documents\visual studio 2013\Projects\S05D03_Stack_Queue\S05D03_Stack_Queue\obj\Debug\S05D03_Stack_Queue.exe
-\\psf\home\documents\visual studio 2013\Projects\S05D03_Stack_Queue\S05D03_Stack_Queue\obj\Debug\S05D03_Stack_Queue.pdb

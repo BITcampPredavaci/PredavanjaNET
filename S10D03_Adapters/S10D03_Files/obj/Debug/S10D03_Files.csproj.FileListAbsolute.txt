@@ -1,6 +1,0 @@
-C:\BitCamp_Code\S10D03_Adapters\S10D03_Files\bin\Debug\S10D03_Files.exe.config
-C:\BitCamp_Code\S10D03_Adapters\S10D03_Files\bin\Debug\S10D03_Files.exe
-C:\BitCamp_Code\S10D03_Adapters\S10D03_Files\bin\Debug\S10D03_Files.pdb
-C:\BitCamp_Code\S10D03_Adapters\S10D03_Files\obj\Debug\S10D03_Files.exe
-C:\BitCamp_Code\S10D03_Adapters\S10D03_Files\obj\Debug\S10D03_Files.pdb
-C:\BitCamp_Code\S10D03_Adapters\S10D03_Files\obj\Debug\S10D03_Files.csprojResolveAssemblyReference.cache

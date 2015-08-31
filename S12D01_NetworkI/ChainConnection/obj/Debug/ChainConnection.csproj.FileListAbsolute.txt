@@ -1,6 +1,0 @@
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\ChainConnection\bin\Debug\ChainConnection.exe.config
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\ChainConnection\bin\Debug\ChainConnection.exe
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\ChainConnection\bin\Debug\ChainConnection.pdb
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\ChainConnection\obj\Debug\ChainConnection.csprojResolveAssemblyReference.cache
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\ChainConnection\obj\Debug\ChainConnection.exe
-c:\users\bttalic\documents\visual studio 2015\Projects\S12D01_NetworkI\ChainConnection\obj\Debug\ChainConnection.pdb

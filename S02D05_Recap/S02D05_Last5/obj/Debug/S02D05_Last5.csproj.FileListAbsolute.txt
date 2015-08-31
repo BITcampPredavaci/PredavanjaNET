@@ -1,5 +1,0 @@
-\\psf\home\documents\visual studio 2013\Projects\S02D05_Recap\S02D05_Last5\bin\Debug\S02D05_Last5.exe.config
-\\psf\home\documents\visual studio 2013\Projects\S02D05_Recap\S02D05_Last5\bin\Debug\S02D05_Last5.exe
-\\psf\home\documents\visual studio 2013\Projects\S02D05_Recap\S02D05_Last5\bin\Debug\S02D05_Last5.pdb
-\\psf\home\documents\visual studio 2013\Projects\S02D05_Recap\S02D05_Last5\obj\Debug\S02D05_Last5.exe
-\\psf\home\documents\visual studio 2013\Projects\S02D05_Recap\S02D05_Last5\obj\Debug\S02D05_Last5.pdb

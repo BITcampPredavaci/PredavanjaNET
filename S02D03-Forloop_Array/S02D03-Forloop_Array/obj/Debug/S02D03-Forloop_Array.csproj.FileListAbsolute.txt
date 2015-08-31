@@ -1,6 +1,0 @@
-\\psf\home\documents\visual studio 2013\Projects\S02D03-Forloop_Array\S02D03-Forloop_Array\bin\Debug\S02D03-Forloop_Array.exe.config
-\\psf\home\documents\visual studio 2013\Projects\S02D03-Forloop_Array\S02D03-Forloop_Array\bin\Debug\S02D03-Forloop_Array.exe
-\\psf\home\documents\visual studio 2013\Projects\S02D03-Forloop_Array\S02D03-Forloop_Array\bin\Debug\S02D03-Forloop_Array.pdb
-\\psf\home\documents\visual studio 2013\Projects\S02D03-Forloop_Array\S02D03-Forloop_Array\obj\Debug\S02D03-Forloop_Array.csprojResolveAssemblyReference.cache
-\\psf\home\documents\visual studio 2013\Projects\S02D03-Forloop_Array\S02D03-Forloop_Array\obj\Debug\S02D03-Forloop_Array.exe
-\\psf\home\documents\visual studio 2013\Projects\S02D03-Forloop_Array\S02D03-Forloop_Array\obj\Debug\S02D03-Forloop_Array.pdb

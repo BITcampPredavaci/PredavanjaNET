@@ -1,5 +1,0 @@
-\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_TryCatch\bin\Debug\S03D03_TryCatch.exe.config
-\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_TryCatch\bin\Debug\S03D03_TryCatch.exe
-\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_TryCatch\bin\Debug\S03D03_TryCatch.pdb
-\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_TryCatch\obj\Debug\S03D03_TryCatch.exe
-\\psf\home\documents\visual studio 2013\Projects\S03D03_TryCatch\S03D03_TryCatch\obj\Debug\S03D03_TryCatch.pdb

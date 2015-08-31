@@ -1,5 +1,0 @@
-\\psf\home\documents\visual studio 2013\Projects\S11D02_Threads\S11D02_Threads\bin\Debug\S11D02_Threads.exe.config
-\\psf\home\documents\visual studio 2013\Projects\S11D02_Threads\S11D02_Threads\bin\Debug\S11D02_Threads.exe
-\\psf\home\documents\visual studio 2013\Projects\S11D02_Threads\S11D02_Threads\bin\Debug\S11D02_Threads.pdb
-\\psf\home\documents\visual studio 2013\Projects\S11D02_Threads\S11D02_Threads\obj\Debug\S11D02_Threads.exe
-\\psf\home\documents\visual studio 2013\Projects\S11D02_Threads\S11D02_Threads\obj\Debug\S11D02_Threads.pdb
