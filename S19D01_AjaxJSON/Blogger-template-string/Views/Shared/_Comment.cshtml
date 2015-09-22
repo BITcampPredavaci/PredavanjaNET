@@ -1,0 +1,8 @@
+@model Blogger.Models.Comment
+<div class="comment">
+	@Model.Body
+
+	<form action="/Comments/Delete/@Model.Id" method="post">
+		<button>Delete comment</button>
+	</form>
+</div>
