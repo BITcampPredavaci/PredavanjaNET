@@ -1,0 +1,28 @@
+@model Blogger.Models.Post
+@{
+    ViewBag.Title = "Views/Posts/Details Page";
+}
+
+<h1>Blogger</h1>
+
+<h2>@Model.Title</h2>
+<div>@Model.Body</div>
+
+<h2>Comments</h2>
+
+<div class="comments"> 
+    @foreach(var comment in Model.Comments) {
+        @Html.Partial("_Comment", comment)
+    }
+</div>
+
+<h2>Join the discussion</h2>
+
+<form id='comment-form' action="/Comments/Create" method="post">
+    <label for="comment-body">Your Comment:</label>
+    <br>
+    <textarea id="comment-body"
+              name="body"></textarea>
+    <br>
+    <button>Add your thoughts</button>
+</form>
