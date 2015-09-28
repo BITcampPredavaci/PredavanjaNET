@@ -1,0 +1,41 @@
+<html ng-app="sampleApp">
+
+<head>
+	<title> App 1</title>
+
+	<style>
+		.good {
+			color: green;
+		}
+		.bad {
+			color: red;
+		}
+	</style>
+</head>
+
+<body>
+
+	<h3> Hello Wordl </h3>
+
+	<div ng-controller="MainCtrl">
+		<h3> Name: {{ name }} </h3>
+		<input type="text" ng-model="name" />
+		<button ng-click="reset()"> Reset </button>
+		<h3 ng-class="time > 50 ? 'good' : 'bad' " > {{ time }} </h3>
+		
+		<div ng-controller="ChildCtrl">
+			<h3> Child </h3>
+			<input type="text" ng-model="name" />
+			<button ng-click="setName()"> Set Name </button>
+		</div>
+	</div>
+	
+	<div ng-controller="HomeCtrl as home">
+		<h3> Home: {{home.title}} </h3>
+	</div>
+
+	<script src="../angular/angular.min.js"></script>
+	<script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<html ng-app="peopleApp">
+
+<head>
+	<title> Angular app2 </title>
+
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+</head>
+
+<body>
+	<div class="alert alert-succcess" ng-controller="SampleCtrl">
+		<h1> Phone : {{ phone }} </h1>
+	</div>
+	<div class="container" ng-controller="PeopleCtrl">
+
+		<div class="col-md-8">
+			<table class="table">
+				<thead>
+					<tr>
+						<th> First Name </th>
+						<th> Last Name </th>
+						<th> Age </th>
+						<th> Birthday </th>
+						<th>
+							<input type="text" ng-model="order" />
+						</th>
+						<th>
+							<input type="text" ng-model="search" />
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="person in people 
+					| orderBy: order | filter: search "
+					ng-click="select(person)"
+					ng-class="person.age > 50 ? 'success' : 'warning' ">
+						<td> {{ person.firstName }} </td>
+						<td> {{ person.lastName }} </td>
+						<td> {{ person.age }} </td>
+						<td> {{ person.birthday | date: 'dd/MM/yyyy' }} </td>
+					</tr>
+				</tbody>
+			</table>
+		</div> <!-- col-md-8 zatvara -->
+		
+		<div class="col-md-4">
+			<form ng-submit="addContact()">
+				<div class="form-group">
+					<label> Name: </label>
+					<input type="text" 
+					ng-model="person.firstName" 
+					class="form-control" 
+					ng-minlength="3"
+					ng-required="true"
+					/>
+				</div>
+				
+				<div class="form-group">
+					<label> Last Name: </label>
+					<input type="text" ng-model="person.lastName" class="form-control" />
+				</div>
+				
+				<div class="form-group">
+					<label> Age: </label>
+					<input type="number" ng-model="person.age" class="form-control" />
+				</div>
+				
+				<div class="form-group">
+					<label> Birthday: </label>
+					<input type="date" ng-model="person.birthday" class="form-control" />
+				</div>
+				<input type="submit" class="btn btn-success col-md-12" value="Save" />
+			</form>
+		</div><!-- zatvara col-md-4 -->
+		
+	</div><!-- zatvara se container -->
+
+	<script src="../angular/angular.min.js"></script>
+	<script src="./sample.js"></script>
+	<script src="./app.js"></script>
+</body>
+
+</html>

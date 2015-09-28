@@ -1,0 +1,20 @@
+[
+	{
+		"firstName": "John",
+		"lastName": "Doe",
+		"age": 23,
+		"birthday": "12.12.1992"
+	},
+	{
+		"firstName": "Alice",
+		"lastName": "Cooper",
+		"age": 60,
+		"birthday": "12.12.1955"
+	},
+	{
+		"firstName": "Bob",
+		"lastName": "Dylan",
+		"age": 40,
+		"birthday": "12.12.1975"
+	}
+]
