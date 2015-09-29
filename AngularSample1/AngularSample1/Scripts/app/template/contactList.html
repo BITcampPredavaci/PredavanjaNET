@@ -1,0 +1,23 @@
+﻿<h3> Contacts: {{ contactsCtrl.contactService.contactList.length }} </h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th> Id </th>
+            <th> First Name </th>
+            <th> Last Name </th>
+            <th> Email </th>
+            <th> Age </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="contact in contactsCtrl.contactService.contactList"
+            ng-click="contactsCtrl.selectContact(contact)">
+            <td> {{contact.Id}} </td>
+            <td> {{contact.FirstName}} </td>
+            <td> {{contact.LastName}} </td>
+            <td> {{contact.Email}} </td>
+            <td> {{contact.Age}} </td>
+        </tr>
+    </tbody>
+</table>
