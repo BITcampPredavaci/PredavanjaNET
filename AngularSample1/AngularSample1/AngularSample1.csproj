@@ -328,6 +328,7 @@
     <Content Include="Views\Helper\Details.cshtml" />
     <Content Include="Views\Helper\Edit.cshtml" />
     <Content Include="Views\Helper\Index.cshtml" />
+    <Content Include="Views\Home\Account.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

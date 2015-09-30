@@ -2,6 +2,8 @@
 
     var mod = angular.module("contactController", []);
 
+
+
     mod.controller("ContactListCtrl", ["ContactService", function (ContactService) {
         var ctrl = this;
         ctrl.contactService = ContactService;

@@ -26,6 +26,7 @@ namespace AngularSample1
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                 "~/Scripts/angular/angular.js",
+                "~/Scripts/angular/angular-cookies.min.js",
                 "~/Scripts/jcs-auto-validate.min.js",
                 "~/Scripts/app/contactsController.js",
                 "~/Scripts/app/contactsDirective.js",

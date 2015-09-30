@@ -12,6 +12,7 @@ using AngularSample1.Models;
 
 namespace AngularSample1.Controllers
 {
+    [Authorize]
     public class ContactsController : ApiController
     {
         private ApplicationDbContext db = new ApplicationDbContext();
