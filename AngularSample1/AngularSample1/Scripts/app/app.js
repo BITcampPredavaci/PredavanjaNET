@@ -1,6 +1,6 @@
 ﻿(function () {
 
-    var app = angular.module("contactApp", ['ngCookies','jcs-autoValidate', 'contactModule']);
+    var app = angular.module("contactApp", ['ngRoute', 'ngCookies','jcs-autoValidate', 'contactModule']);
 
     app.run([
     'defaultErrorMessageResolver',
@@ -14,12 +14,36 @@
         });
     }]);
 
+    app.config(function ($routeProvider, $locationProvider) {
+
+        $routeProvider
+        .when("/", {
+            templateUrl: "/Scripts/app/template/contactList.html",
+            controller: "ContactListCtrl",
+            controllerAs: "contactsCtrl"
+        })
+        .when("/contact/new", {
+            templateUrl: "/Scripts/app/template/contactForm.html",
+            controller: "ContactCtrl",
+            controllerAs: "ctrl"
+        })
+        .when("/contact/edit/:id", {
+            templateUrl: "/Scripts/app/template/contactForm.html",
+            controller: "ContactCtrl",
+            controllerAs: "ctrl"
+        })
+        .when("/login", {
+            templateUrl: "/Home/Account"
+        })
+        .otherwise({ redirectTo: "/" });
+
+        $locationProvider.html5Mode(true);
+    });
 
 
     app.factory('httpRequestInterceptor', function ($cookies) {
         return {
             request: function (config) {
-                console.log("REQUESST");
                 config.headers['Authorization'] = 'Bearer ' + $cookies.get("token");
                 return config;
             }

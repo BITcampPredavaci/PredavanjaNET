@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
 using AngularSample1.Models;
+using System.Threading;
 
 namespace AngularSample1.Controllers
 {
@@ -40,6 +41,7 @@ namespace AngularSample1.Controllers
         [ResponseType(typeof(void))]
         public IHttpActionResult PutContact(int id, Contact contact)
         {
+            Thread.Sleep(3000);
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);

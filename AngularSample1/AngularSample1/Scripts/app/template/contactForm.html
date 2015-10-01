@@ -1,4 +1,4 @@
-﻿<form ng-submit="ctrl.contactService.saveContact()" novalidate="novalidate">
+﻿<form name="addContactForm" ng-submit="ctrl.contactService.saveContact(); addContactForm.$setPristine()" novalidate="novalidate">
     <div class="form-group">
         <label> First Name: </label>
         <input type="text"
@@ -39,5 +39,7 @@
                ng-min-err-type="tooYoung"
                ng-max-err-type="tooOld" />
     </div>
-    <input type="submit" value="Add Contact" class="col-md-12 btn btn-success" />
+    <button type="submit" ladda="ctrl.contactService.loading" class="btn btn-success">
+        Save Contact 
+    </button>
 </form>

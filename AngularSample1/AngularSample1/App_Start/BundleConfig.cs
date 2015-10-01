@@ -22,11 +22,17 @@ namespace AngularSample1
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
+                      "~/Content/ladda.min.css",
                       "~/Content/site.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/angular").Include(
                 "~/Scripts/angular/angular.js",
                 "~/Scripts/angular/angular-cookies.min.js",
+                "~/Scripts/angular/angular-resource.min.js",
+                "~/Scripts/angular/angular-route.min.js",
+                "~/Scripts/spin.min.js",
+                "~/Scripts/ladda.min.js",
+                "~/Scripts/angular-ladda.min.js",
                 "~/Scripts/jcs-auto-validate.min.js",
                 "~/Scripts/app/contactsController.js",
                 "~/Scripts/app/contactsDirective.js",
