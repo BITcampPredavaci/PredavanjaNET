@@ -1,0 +1,10 @@
+<form class="" ng-submit="postCtrl.savePost()" novalidate>
+    <div class="form-group">
+        <label> What do you want to share </label>
+        <input type="text" ng-model="postCtrl.post.content" class="form-control"
+         ng-required="true"
+         ng-minlength="3"
+         ng-maxlength="255" />
+    </div>
+     <button type="submit" class="btn btn-success">Post</button>
+</form>

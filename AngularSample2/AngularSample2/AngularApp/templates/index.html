@@ -1,0 +1,22 @@
+<div>
+
+    <div class="panel panel-default" ng-repeat="post in postCtrl.postService.postList">
+        <div class="panel-heading">
+            {{ post.User.Email }} said: 
+        </div>
+        <div class="panel-body">
+            {{ post.Content }}
+        </div>
+        <div class="panel-footer">
+            <a ng-click="postCtrl.vote(true, $index)">
+                <i class="glyphicon glyphicon-ok"></i>
+                {{ post.UpVotes }}
+            </a>
+            <a ng-click="postCtrl.vote(false, $index)">
+                <i class="glyphicon glyphicon-remove"></i>
+                {{ post.DownVotes }}
+            </a>
+        </div>
+    </div>
+
+</div>
