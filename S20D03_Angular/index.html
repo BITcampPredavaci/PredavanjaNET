@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AngularJS</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="angular.js"></script>
+  <script src="main.js"></script>
+</head>
+<body ng-app='repos'>
+
+  <div ng-controller="RepositoryListController as rlc">
+    <input ng-model="rlc.username">
+    <button ng-click="rlc.reload()">Fetch repositories</button>
+
+    <ul>
+      <li ng-repeat="repo in rlc.repositories"
+          ng-controller="RepositoryController as rc"
+          ng-click="rc.showDetails(repo)">
+        <p class="repo-name">
+          {{repo.name}}
+        </p>
+        <pre>{{rc.details}}</pre>
+      </li>
+    </ul>
+
+    <button ng-click="rlc.pager.previous()" ng-if="rlc.pager.hasPrevious()">← Previous</button>
+    <button
+      ng-repeat="page in rlc.pager.pages"
+      ng-click="rlc.pager.goto(page)">{{page}}</button>
+    <button ng-click="rlc.pager.next()">Next →</button>
+
+  </div>
+
+</body>
+</html>
