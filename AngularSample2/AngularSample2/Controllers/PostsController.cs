@@ -20,10 +20,28 @@ namespace AngularSample2.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: api/Posts
-        public List<Post> GetPosts()
+        public IHttpActionResult GetPosts(int? page)
         {
-            List<Post> posts = db.Posts.ToList() ;
-            return posts;
+            int pageSize = 2;
+            int skip = 0;
+            if (page != null)
+                skip = page.Value;
+
+            List<Post> posts = db.Posts
+                .OrderBy(x => x.Id)
+                .Skip(skip * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            bool hasNext = db.Posts.Count() > ((skip + 1) * pageSize);
+            int next = skip + 1;
+
+            return Ok(new PaginationResult()
+            {
+                Posts = posts,
+                HasNext = hasNext,
+                NextPage = next
+            });
         }
 
         // GET: api/Posts/5

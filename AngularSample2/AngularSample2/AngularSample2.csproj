@@ -219,6 +219,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApiUser.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\PaginationResult.cs" />
     <Compile Include="Models\Post.cs" />
     <Compile Include="Models\Vote.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -229,11 +230,14 @@
   <ItemGroup>
     <Content Include="AngularApp\app.js" />
     <Content Include="AngularApp\controllers\PostController.js" />
+    <Content Include="AngularApp\controllers\RegisterController.js" />
     <Content Include="AngularApp\services\PostServices.js" />
     <Content Include="AngularApp\templates\index.html" />
+    <Content Include="AngularApp\templates\navbar.html" />
     <Content Include="AngularApp\templates\posts\newPost.html" />
     <Content Include="AngularApp\templates\users.html" />
     <Content Include="AngularApp\templates\user\login.html" />
+    <Content Include="AngularApp\templates\user\register.html" />
     <Content Include="AngularApp\templates\votes.html" />
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Content\bootstrap.css" />

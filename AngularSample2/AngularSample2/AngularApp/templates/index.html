@@ -8,15 +8,21 @@
             {{ post.Content }}
         </div>
         <div class="panel-footer">
-            <a ng-click="postCtrl.vote(true, $index)">
+            <a ng-click="postCtrl.postService.vote(true, $index)">
                 <i class="glyphicon glyphicon-ok"></i>
                 {{ post.UpVotes }}
             </a>
-            <a ng-click="postCtrl.vote(false, $index)">
+            <a ng-click="postCtrl.postService.vote(false, $index)">
                 <i class="glyphicon glyphicon-remove"></i>
                 {{ post.DownVotes }}
             </a>
         </div>
     </div>
+
+    <button class="btn btn-info col-md-12" 
+            ng-disabled="!postCtrl.postService.hasNext"
+            ng-click="postCtrl.postService.loadPosts()">
+        Load More
+    </button>
 
 </div>

@@ -26,7 +26,8 @@ namespace AngularSample2
 
             bundles.Add(new ScriptBundle("~/bundles/angularCore").Include(
                "~/Scripts/angular/angular.min.js",
-               "~/Scripts/angular/angular-resource.min.js"
+               "~/Scripts/angular/angular-resource.min.js",
+               "~/Scripts/angular/angular-cookies.min.js"
                ));
 
             bundles.Add(new ScriptBundle("~/bundles/angularThrdParty").Include(
@@ -36,7 +37,7 @@ namespace AngularSample2
 
             bundles.Add(new ScriptBundle("~/bundles/angularApp").Include(
                 "~/AngularApp/services/PostServices.js",
-                "~/AngularApp/controllers/PostController.js",
+                "~/AngularApp/controllers/*.js",
                 "~/AngularApp/app.js"
                 ));
         }
